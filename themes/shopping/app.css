@@ -14098,7 +14098,6 @@ input[type="radio"].sr-only:checked ~ div.s-reviews-testimonial__icon svg {
 }
 .s-reviews-container .swiper-slide {
     height: auto;
-    width: 20%;
     overflow: hidden;
     padding-left: 10px;
     padding-right: 10px;
