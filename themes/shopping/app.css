@@ -15661,8 +15661,6 @@ input[type="radio"].sr-only:checked
 .s-slider-thumbs .s-slider-thumbs-container .swiper-slide {
     margin-left: 5px;
     margin-right: 5px;
-    height: 4rem;
-    width: 25%;
     cursor: pointer;
     overflow: hidden;
     border-radius: var(--border-radius);
@@ -15710,22 +15708,7 @@ input[type="radio"].sr-only:checked
 .s-slider-thumbs .s-slider-thumbs-container .swiper-slide:hover {
     opacity: 0.8;
 }
-@media (min-width: 640px) {
-    .s-slider-thumbs .s-slider-thumbs-container .swiper-slide {
-        width: 20%;
-    }
-}
-@media (min-width: 768px) {
-    .s-slider-thumbs .s-slider-thumbs-container .swiper-slide {
-        height: 5rem;
-        width: 25%;
-    }
-}
-@media (min-width: 1024px) {
-    .s-slider-thumbs .s-slider-thumbs-container .swiper-slide {
-        width: 20%;
-    }
-}
+
 .s-slider-vertical .s-slider-thumbs-container .swiper-slide {
     margin-left: 0;
     margin-right: 0;
@@ -29803,9 +29786,6 @@ lite-youtube.lyt-activated > .lty-playbtn {
     list-style: none;
     padding: 0;
     z-index: 1;
-}
-.swiper-vertical > .swiper-wrapper {
-    flex-direction: column;
 }
 .swiper-wrapper {
     position: relative;
