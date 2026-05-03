@@ -15120,22 +15120,6 @@ input[type="radio"].sr-only:checked ~ div.s-search-action {
         padding-right: 0px;
     }
 }
-.s-slider-thumbs-container:where([dir="ltr"], [dir="ltr"] *) {
-    padding-right: 3rem;
-}
-@media (min-width: 1024px) {
-    .s-slider-thumbs-container:where([dir="ltr"], [dir="ltr"] *) {
-        padding-right: 0px;
-    }
-}
-.s-slider-thumbs-container:where([dir="rtl"], [dir="rtl"] *) {
-    padding-left: 3rem;
-}
-@media (min-width: 1024px) {
-    .s-slider-thumbs-container:where([dir="rtl"], [dir="rtl"] *) {
-        padding-left: 0px;
-    }
-}
 .s-slider-wrapper {
     position: relative;
 }
